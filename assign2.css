@@ -1,0 +1,23 @@
+        .main{
+            border: 2px solid black;
+            height: 200px;
+            width: 700px;
+            padding:20px;
+        }
+        .content{
+            place-self: center;
+            background-color: blue;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 600px;
+        }
+        .item{
+            background: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            width: 500px;
+        }
