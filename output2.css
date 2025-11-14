@@ -1,44 +1,42 @@
 
-        body {
+        body{
             font-family: Arial, sans-serif;
         }
-        .container {
-            border: 2px solid #888;
+        .container{
+            border: 2px solid grey;
             padding: 24px;
             max-width: 800px;
             margin: 40px auto;
-            background-color: #fff;
+            background-color: white;
         }
-        .title {
+        .title{
             font-size: 1.5em;
             font-weight: bold;
             margin-bottom: 20px;
         }
-        .card {
+        .card{
             display: inline-block;
             width: 180px;
             height: 260px;
             vertical-align: top;
-            margin: 20px 20px 0 0;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            margin: 20px 20px ;
             text-align: center;
             font-size: 1.2em;
             padding-top: 60px;
         }
-        .card.book {
-            background: #fce34b;
+        .card.book{
+            background: yellow;
             color: #444;
         }
-        .card.headphones {
-            background: #fa5ca8;
+        .card.headphones{
+            background: pink;
             color: #fff;
         }
-        .card.watch {
-            background: #bcf3f8;
+        .card.watch{
+            background: aquamarine;
             color: #444;
         }
-        .price {
+        .price{
             display: block;
             font-size: 1.1em;
             margin-top: 22px;
